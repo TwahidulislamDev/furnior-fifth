@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", serif;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+.container {
+  width: 1270px;
+  margin: 0 auto;
+}
+/* All common css End  */
+/* Header part start  */
+#headerPart {
+  padding: 30px 0;
+}
+.headerFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu li {
+  display: inline-block;
+  padding: 0 32.5px;
+  text-align: center;
+}
+.menu li,
+a {
+  color: black;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+}
+.icons .iconSvg {
+  padding-left: 40px;
+}
+/* Header part end  */
+/* Banner Section Start  */
+#bannerSection {
+  background: url(../resource/images/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bannerOverlay {
+  padding: 120px 0;
+  background: rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+.bannerOverlay h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+.bannerOverlay p {
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 25px;
+}
+/* Banner Section End  */
+/* contact Section Start  */
+#contactSection {
+  /* margin-top: 50px; */
+  padding: 100px 0;
+}
+.contactFieldLeftPart{
+  width: 50%;
+}
+.contactFieldRightPart{
+  width: 50%;
+}
+.contactHeader {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.contactHeader h1 {
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.contactHeader p {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 350px;
+  line-height: 20px;
+  color: #666;
+}
+.contactField {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contactPhone{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.contactPhoneLogg i{
+  font-size: 25px;
+}
+.contactPhoneText{
+  margin-left: 40px;
+}
+.contactPhoneText h1{
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.contactPhoneText p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.form-container {
+  width: 350px;
+}
+label {
+  display: block;
+  margin: 20px 0 5px;
+  font-size: 14px;
+  color: #333;
+}
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+textarea {
+  resize: none;
+}
+button {
+  width: 50%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  background-color: #B38E42;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #99792e;
+}
+/* contact Section End  */
+
+/* Warranty Section Start */
+#warrantySection{
+  background: #FAF3EA;
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.warrantyFlex{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.warrantyProduct{
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.WarrantyLogo img{
+  width: 45px;
+  
+}
+.WarrantyText{
+  padding-left: 10px;
+  
+
+}
+.WarrantyText h1{
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 15px;
+  
+}
+.WarrantyText p{
+  font-size: 14px;
+  font-weight: 400;
+  color: #898989;
+}
+/* Warranty Section End */
+/* Footer Section Start */
+#footerPart{
+  margin-bottom: 50px;
+}
+.footerFlex{
+  border-top:1px solid gray ;
+  border-bottom:1px solid gray;
+  display: flex;
+  justify-content: space-between; 
+}
+.brandName{
+  padding-top: 50px;
+  width: 30%;
+}
+.brandName h1{
+  font-size: 25px;
+  font-weight: 700;
+  padding-bottom: 60px;
+}
+.brandName p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #9F9F9F;
+  line-height: 20px;
+}
+.brandLink{
+  padding-top: 50px;
+  width: 20%;
+}
+.brandLink h1{
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 60px; 
+}
+.brandLink h2{
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 40px; 
+  color: #9F9F9F;
+}
+.brandLink h3{
+  font-size: 14px;
+  font-weight: 400;  
+  padding-bottom: 40px;
+  color: #9F9F9F;
+}
+.brandLink h4{
+  font-size: 14px;
+  font-weight: 400; 
+  padding-bottom: 40px; 
+  color: #9F9F9F;
+}
+.brandLink p{
+  font-size: 14px;
+  font-weight: 400; 
+  color: #9F9F9F; 
+  padding-bottom: 40px;
+}
+.help h1{
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 60px; 
+}
+.help{
+  padding-top: 50px;
+  width: 20%;
+}
+.help h2{  
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 40px; 
+  color: #9F9F9F;
+}
+.help h3{  
+  font-size: 14px;
+  font-weight: 400;  
+  padding-bottom: 40px;
+  color: #9F9F9F;
+}
+.help h4{  
+  font-size: 14px;
+  font-weight: 400; 
+  padding-bottom: 40px; 
+  color: #9F9F9F;
+}
+.brandNewsletter{
+  padding-top: 50px;
+  width: 30%;
+}
+.brandNewsletter h1{
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 60px;  
+}
+.brandNewLetterFlex{
+  display: flex;
+}
+.footerForm input{
+  border: none;
+  background: transparent;
+  padding: 10px 20px 10px 0;
+  border-bottom: 2px solid black;
+  display: block;
+  margin-right: 10px;
+}
+.footerFormText{
+  border-bottom: 2px solid black;
+}
+/* .footerFormText button{
+  padding: 10px 10px;
+  border: none;
+  font-size: 13px;
+  font-weight: 500;
+} */
+.footerFormText a{
+  padding: 10px 10px;
+  border: none;
+  font-size: 13px;
+  font-weight: 500;
+  transition: .5s;
+  color: black;
+}
+.footerFormText a:hover{
+  padding: 10px 10px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 5px;
+  background: #e97171;
+}
+.copyRight h3{
+  text-align: center;
+  font-size: 14px;
+  color: #9F9F9F;
+  font-weight: 400;
+  padding-top: 10px;
+
+}
+/* Footer Section End */
